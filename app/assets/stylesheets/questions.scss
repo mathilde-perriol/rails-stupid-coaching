@@ -1,0 +1,17 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+$pink: #ed96e7c0;
+
+body {
+  background: $pink; // Using this variable
+}
+
+h1 {
+  color: rgb(14, 139, 188);
+  text-align: center;
+  &:hover {
+    color: black;
+  }
+}
